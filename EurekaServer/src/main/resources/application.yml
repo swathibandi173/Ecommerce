@@ -1,0 +1,14 @@
+eureka.server.peer-node-read-timeout-ms: 500000
+
+server:
+  port: 8761
+
+    
+spring:
+  application:
+    name: EUREKA-SERVER
+    
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
